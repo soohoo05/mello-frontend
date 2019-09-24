@@ -34,12 +34,12 @@ class Board {
   }
 
   addCard(listId, cardText) {
-   this.lists.forEach(function(list) {
-     if (listId === list.id) {
-       list.addCard(cardText);
-     }
-   });
- }
+    this.lists.forEach(function(list) {
+      if (listId === list.id) {
+        list.addCard(cardText);
+      }
+    });
+  }
 }
 
 Board.lastId = 0;
